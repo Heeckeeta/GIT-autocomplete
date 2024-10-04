@@ -1,0 +1,31 @@
+export default function(item){
+    const saved=document.querySelector('.saved');
+    const savedItem=document.createElement('div');
+    savedItem.classList.add('saved__item');
+    const forText=document.createElement('div');
+    forText.classList.add('saved__for-text');
+    const textName=document.createElement('div');
+    textName.classList.add('saved__text');
+    textName.textContent='name: '+item.dataset.name;
+    const textOwner=document.createElement('div');
+    textOwner.classList.add('saved__text');
+    textOwner.textContent='owner: '+item.dataset.owner;
+    const textStars=document.createElement('div');
+    textStars.classList.add('saved__text');
+    textStars.textContent='stars: '+item.dataset.stars;
+    const close=document.createElement('div');
+    close.classList.add('close');
+    const closeLine1=document.createElement('div');
+    closeLine1.classList.add('close__line');
+    const closeLine2=document.createElement('div');
+    closeLine2.classList.add('close__line');
+    closeLine2.classList.add('close__line--2');
+    close.append(closeLine1);
+    close.append(closeLine2);
+    forText.append(textName);
+    forText.append(textOwner);
+    forText.append(textStars);
+    savedItem.append(forText);
+    savedItem.append(close);
+    saved.append(savedItem);
+}
