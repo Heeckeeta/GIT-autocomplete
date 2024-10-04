@@ -1,6 +1,6 @@
-import deleteItemEvent from './scripts/deleteItemEvent';
-import searchListEvent from './scripts/searchListEvent';
-import searchEvent from './scripts/searchEvent';
+import deleteItemEvent from './scripts/deleteItemEvent.js';
+import searchListEvent from './scripts/searchListEvent.js';
+import searchEvent from './scripts/searchEvent.js';
 
 
 deleteItemEvent();

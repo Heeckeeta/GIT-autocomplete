@@ -1,5 +1,5 @@
-import clearSearchList from './clearSearchList';
-import setLi from './setLi';
+import clearSearchList from './clearSearchList.js';
+import setLi from './setLi.js';
 
 
 export default function(){

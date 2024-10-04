@@ -1,6 +1,6 @@
-import clearSearchList from './clearSearchList';
-import getItems from './getItems';
-import debounce from './debounce';
+import clearSearchList from './clearSearchList.js';
+import getItems from './getItems.js';
+import debounce from './debounce.js';
 
 
 export default function(){
